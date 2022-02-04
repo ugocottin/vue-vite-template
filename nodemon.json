@@ -1,0 +1,8 @@
+{
+	"verbose": true,
+	"watch": ["src/main/**/*.ts"],
+	"env": {
+		"MODE": "development"
+	},
+	"ext": "ts"
+}

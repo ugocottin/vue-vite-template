@@ -1,0 +1,13 @@
+appId: 'fr.ugocottin.my-app'
+productName: 'MyApp'
+copyright: 'Copyright © 2022 Ugo Cottin'
+mac:
+    category: 'public.app-category.utilities'
+nsis:
+    oneClick: false
+    allowToChangeInstallationDirectory: true
+files:
+    - 'dist/**/*'
+directories:
+    buildResources: 'assets'
+    output: 'dist/app'
